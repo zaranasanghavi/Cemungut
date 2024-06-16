@@ -1,0 +1,241 @@
+.our-blog {
+  width: 125px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.blog-title {
+  width: 523px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.stay-update-with {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-32xl);
+  font-weight: 800;
+  font-family: inherit;
+  color: var(--color-darkslategray-200);
+}
+.blog-header {
+  width: 1278px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.blog-image {
+  border: 0;
+  background-color: transparent;
+  height: 272px;
+  width: 729px;
+  outline: 0;
+  position: absolute;
+  margin: 0 !important;
+  top: 461px;
+  right: 223px;
+  background: linear-gradient(180deg, rgba(4, 44, 63, 0), #042c3f);
+  z-index: 1;
+}
+.strategies-unveiled-business {
+  margin: 0 !important;
+  width: 594.3px;
+  position: absolute;
+  right: -479.2px;
+  bottom: 528px;
+  font-size: var(--font-size-9xl);
+  font-weight: 600;
+  font-family: inherit;
+  color: var(--color-white);
+  display: inline-block;
+}
+.where-innovation-meets7 {
+  width: 1397px;
+  line-height: 31px;
+}
+.innovation-junction-where,
+.step-into-a,
+.where-innovation-meets7 {
+  margin: 0;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+.innovation-junction-where {
+  width: 562px;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+}
+.step-into-a {
+  width: 565px;
+  font-size: var(--font-size-base);
+  line-height: 31px;
+  font-family: var(--font-rubik);
+  color: var(--color-gainsboro-100);
+}
+.blog-1 {
+  flex: 0.8571;
+  background: linear-gradient(180deg, rgba(4, 44, 63, 0), #042c3f), #d9d9d9;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: var(--padding-320xl) var(--padding-xl) var(--padding-59xl)
+    var(--padding-66xl);
+  box-sizing: border-box;
+  gap: var(--gap-4xl);
+  min-width: 478px;
+  max-width: 100%;
+}
+.blog-3,
+.image2 {
+  border: 0;
+  background-color: var(--color-gainsboro-200);
+  height: 283px;
+  width: auto;
+  outline: 0;
+  align-self: stretch;
+}
+.image2 {
+  position: relative;
+}
+.blog-3 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-124xl) var(--padding-817xl-9);
+  box-sizing: border-box;
+  font-family: var(--font-poppins);
+  font-weight: 600;
+  font-size: var(--font-size-9xl);
+  color: var(--color-white);
+}
+.blog-post-image {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-11xl);
+  min-width: 474px;
+}
+.blog-content,
+.blog-post-image,
+.blog-posts,
+.blog1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.blog-posts {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-15xl);
+  font-size: var(--font-size-12xl);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}
+.blog-content,
+.blog1 {
+  flex-direction: column;
+}
+.blog-content {
+  width: 1498px;
+  gap: var(--gap-78xl);
+  font-size: var(--font-size-base);
+  color: var(--color-darkgray-300);
+  font-family: var(--font-rubik);
+}
+.blog1 {
+  margin-right: -1px;
+  margin-bottom: 177px;
+  align-self: stretch;
+  background-color: var(--color-white);
+  padding: var(--padding-118xl) var(--padding-180xl) var(--padding-156xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-18xl);
+  z-index: 1;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-red-200);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 1825px) {
+  .blog-1,
+  .blog-post-image {
+    flex: 1;
+  }
+  .blog-posts {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1350px) {
+  .blog1 {
+    padding: var(--padding-70xl) var(--padding-80xl) var(--padding-95xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 925px) {
+  .stay-update-with {
+    font-size: var(--font-size-22xl);
+  }
+  .innovation-junction-where {
+    font-size: var(--font-size-6xl);
+  }
+  .blog-1 {
+    padding-left: var(--padding-23xl);
+    padding-top: var(--padding-201xl);
+    padding-bottom: var(--padding-32xl);
+    box-sizing: border-box;
+  }
+  .blog-1,
+  .blog-post-image {
+    min-width: 100%;
+  }
+  .blog-posts {
+    gap: var(--gap-mid);
+  }
+  .blog-content {
+    gap: var(--gap-29xl);
+  }
+  .blog1 {
+    gap: var(--gap-lg);
+    padding: var(--padding-39xl) var(--padding-30xl) var(--padding-55xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .our-blog {
+    font-size: var(--font-size-lgi);
+  }
+  .stay-update-with {
+    font-size: var(--font-size-12xl);
+  }
+  .strategies-unveiled-business {
+    font-size: var(--font-size-3xl);
+  }
+  .innovation-junction-where {
+    font-size: var(--font-size-lgi);
+  }
+  .blog-1 {
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .blog-content {
+    gap: var(--gap-5xl);
+  }
+  .blog1 {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

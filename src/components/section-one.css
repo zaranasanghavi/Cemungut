@@ -1,0 +1,37 @@
+.design-services-icon {
+  width: 56px;
+  height: 56px;
+  position: relative;
+}
+.great-designer {
+  position: relative;
+  font-weight: 600;
+}
+.explore-solutions-engineered {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 167.09%;
+  font-family: var(--font-rubik);
+  color: var(--color-darkgray-300);
+  text-align: center;
+}
+.section-one {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-2xl);
+  min-width: 206px;
+  max-width: 274px;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 450px) {
+  .great-designer {
+    font-size: var(--font-size-base);
+  }
+}

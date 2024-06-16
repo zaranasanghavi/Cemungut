@@ -1,0 +1,100 @@
+.hero-parent,
+.services {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.hero-parent {
+  padding: 0 0 187px;
+}
+.services {
+  background: linear-gradient(rgba(4, 44, 63, 0.81), rgba(4, 44, 63, 0.81)),
+    #d9d9d9;
+  padding: 112px var(--padding-11xs) 131px var(--padding-184xl);
+  gap: 86px;
+}
+.contact {
+  width: 102px;
+  position: absolute;
+  margin: 0 !important;
+  top: 93px;
+  right: -210px;
+  font-weight: 700;
+  display: inline-block;
+}
+.cemungut-business-landing-pa,
+.footer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.footer {
+  align-self: stretch;
+  background-color: var(--color-red-200);
+  align-items: flex-start;
+  padding: 82px 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-61xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}
+.cemungut-business-landing-pa {
+  width: 100%;
+  background-color: #f8f8f8;
+  overflow: hidden;
+  align-items: flex-end;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1350px) {
+  .hero-parent {
+    padding-bottom: 122px;
+    box-sizing: border-box;
+  }
+  .services {
+    gap: var(--gap-24xl);
+    padding-left: var(--padding-82xl);
+    box-sizing: border-box;
+  }
+  .footer {
+    gap: var(--gap-21xl);
+  }
+}
+@media screen and (max-width: 925px) {
+  .hero-parent {
+    padding-bottom: 79px;
+    box-sizing: border-box;
+  }
+  .services {
+    gap: var(--gap-2xl);
+    padding-left: var(--padding-31xl);
+    padding-top: 73px;
+    padding-bottom: var(--padding-66xl);
+    box-sizing: border-box;
+  }
+  .footer {
+    gap: var(--gap-xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .services {
+    padding-top: 47px;
+    padding-bottom: var(--padding-36xl);
+    box-sizing: border-box;
+  }
+  .contact {
+    font-size: var(--font-size-base);
+  }
+  .footer {
+    padding-top: 53px;
+    box-sizing: border-box;
+  }
+}

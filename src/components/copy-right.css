@@ -1,0 +1,98 @@
+.copyright-icon {
+  width: 20px;
+  height: 20px;
+  position: relative;
+}
+.copyright-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs-5) 0 0;
+}
+.meydexa-medical {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-weight: 700;
+  display: inline-block;
+  min-width: 270px;
+  max-width: 100%;
+}
+.copyright-container,
+.copyright-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.copyright-wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--gap-11xs);
+  max-width: 100%;
+}
+.copyright-container {
+  width: 437px;
+  flex-direction: column;
+  padding: var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+  max-width: calc(100% - 839px);
+}
+.contact-us {
+  height: 21px;
+  width: 236px;
+  position: absolute;
+  margin: 0 !important;
+  top: 25px;
+  right: -1249px;
+  display: flex;
+  white-space: pre-wrap;
+  align-items: center;
+}
+.phone-in-talk-icon {
+  height: 21px;
+  width: 21px;
+  position: relative;
+}
+.copyright {
+  align-self: stretch;
+  background-color: var(--color-darkslategray-200);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xl) var(--padding-179xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-799xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 1350px) {
+  .copyright {
+    gap: var(--gap-390xl);
+    padding-left: var(--padding-80xl);
+    padding-right: var(--padding-80xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 925px) {
+  .copyright {
+    gap: var(--gap-185xl);
+    padding-left: var(--padding-30xl);
+    padding-right: var(--padding-30xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .copyright {
+    gap: var(--gap-83xl);
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

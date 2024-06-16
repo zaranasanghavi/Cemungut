@@ -1,0 +1,46 @@
+.join-us-on3,
+.our-services-two {
+  margin: 0 !important;
+  position: absolute;
+  display: inline-block;
+}
+.join-us-on3 {
+  height: 79px;
+  width: 256px;
+  right: -420px;
+  bottom: 0;
+  line-height: 31px;
+}
+.our-services-two {
+  width: 228px;
+  top: 71px;
+  right: -392px;
+  font-size: var(--font-size-5xl);
+  font-weight: 600;
+  font-family: var(--font-poppins);
+  color: var(--color-white);
+}
+.business-center-icon {
+  height: 53px;
+  width: 53px;
+  position: relative;
+}
+.services-2 {
+  width: 256px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-128xl) var(--padding-2xl);
+  box-sizing: border-box;
+  position: relative;
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--color-gainsboro-100);
+  font-family: var(--font-rubik);
+}
+@media screen and (max-width: 450px) {
+  .our-services-two {
+    font-size: var(--font-size-lgi);
+  }
+}
